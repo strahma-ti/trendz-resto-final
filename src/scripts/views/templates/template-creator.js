@@ -40,7 +40,7 @@ const createRestaurantDetailTemplate = (restaurant) => `
 
 const createRestaurantItemTemplate = (restaurant) => `
 <div class="restaurant-item">
-    <img class="restaurant-poster" src="https://restaurant-api.dicoding.dev/images/medium/${restaurant.pictureId}" alt="${restaurant.name}" loading="lazy" />
+<img class="restaurant-poster" src="https://restaurant-api.dicoding.dev/images/medium/${restaurant.pictureId}" alt="${restaurant.name}" loading="lazy" />
     <a id="restaurant-name" class="restaurant-name" href="#/detail/${restaurant.id}">${restaurant.name}</a>
     <div class="restaurant-description">${restaurant.description}</div>
     <div class="restaurant-city">${restaurant.city}</div>

@@ -39,17 +39,14 @@ class AppHero extends HTMLElement {
             margin: 0;
           }
           
-          /* Efek hover untuk menambahkan bayangan */
           .hero:hover .picture {
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           }
           
-          /* Animasi untuk judul */
           .title {
             transition: font-size 0.3s ease-in-out;
           }
           
-          /* Animasi hover untuk judul */
           .hero:hover .title {
             font-size: 3.5rem;
           }
